@@ -121,15 +121,18 @@ public class ex1 {
 	
 	public static void main(String[] args) {
 		
+		// Atribuição de parâmetros do Vendedor 1
 		PessoaVendedor vendedor1 = new PessoaVendedor("Miguel Luís Alves", "293.145.542-36", "06/07/2000", "19/10/2022", 2000.00, 10); 
-		
+
+		// Atribuição de parâmetros do Gerente 1
 		PessoaGerente gerente1 = new PessoaGerente("Lúcia Valentina Bianca Brito", "40.214.506-9", "17/09/1998", "22/08/2024", 2000.00, "Administrativo"); 
 		
+		// Atribuição de parâmetros do Cliente 1
 		Cliente cliente1 = new Cliente("Vera Tatiane Moraes", "13.343.340-7", "04/04/1983", "vera@gmail.com", 5245587, "(15) 99867-9870"); 
 		
-		vendedor1.DescricaoVendedor();
-		gerente1.DescricaoGerente();
-		cliente1.DescricaoCliente();
+		vendedor1.DescricaoVendedor(); // Puxa o Método que exibe os Dados do Vendedor 1 
+		gerente1.DescricaoGerente(); // Puxa o Método que exibe os Dados do Gerente 1
+		cliente1.DescricaoCliente(); // Puxa o Método que exibe os Dados do Cliente 1
 
 	}
 
